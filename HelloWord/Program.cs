@@ -19,6 +19,8 @@ namespace HelloWord
             const double phi = 3.14;
             Console.WriteLine("\nNilai phi adalah " + phi);
            // phi = 3.14159; // Ini akan menghasilkan error karena phi adalah konstanta
+           long myNum= 15000000000L; // Menambahkan 'L' untuk menunjukkan bahwa ini adalah long
+                Console.WriteLine("\nNilai myNum adalah " + myNum);
         }
     }
 }
