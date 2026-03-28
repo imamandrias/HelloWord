@@ -29,6 +29,8 @@ namespace HelloWord
             bool isFishTasty = false;
             Console.WriteLine(isCSharpFun);   // Outputs True
             Console.WriteLine(isFishTasty);   // Outputs False
+            char myGrade = 'A'; //Tipe data char untuk menyimpan karakter tunggal, diapit oleh tanda kutip tunggal
+            Console.WriteLine(myGrade); 
         }
     }
 }
