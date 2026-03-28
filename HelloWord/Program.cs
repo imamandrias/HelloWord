@@ -13,8 +13,9 @@ namespace HelloWord
             Console.Write("coba ini baris ke dua tanpa WirteLine");
             string nama = "Imam";
             Console.WriteLine("\nNama saya " + nama);
-            int umur = 38;
-            Console.WriteLine("\nUmur saya " + umur);
+            int umur = 1;
+            int umur2 = 40;
+            Console.WriteLine("\nUmur saya kisaran" + umur + " s/d " + umur2);
             const double phi = 3.14;
             Console.WriteLine("\nNilai phi adalah " + phi);
            // phi = 3.14159; // Ini akan menghasilkan error karena phi adalah konstanta
