@@ -21,6 +21,10 @@ namespace HelloWord
            // phi = 3.14159; // Ini akan menghasilkan error karena phi adalah konstanta
            long myNum= 15000000000L; // Menambahkan 'L' untuk menunjukkan bahwa ini adalah long
                 Console.WriteLine("\nNilai myNum adalah " + myNum);
+            float f1 = 35e3F;
+            double d1 = 12E4D;
+            Console.WriteLine(f1);
+            Console.WriteLine(d1);
         }
     }
 }
