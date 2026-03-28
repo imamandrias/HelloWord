@@ -25,6 +25,10 @@ namespace HelloWord
             double d1 = 12E4D;
             Console.WriteLine(f1);
             Console.WriteLine(d1);
+            bool isCSharpFun = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCSharpFun);   // Outputs True
+            Console.WriteLine(isFishTasty);   // Outputs False
         }
     }
 }
