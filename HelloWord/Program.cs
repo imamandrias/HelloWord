@@ -40,6 +40,17 @@ namespace HelloWord
             Console.WriteLine(Convert.ToDouble(myInt));    // convert int to double
             Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
             Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
+
+            //User input
+            Console.WriteLine("Masukkan username:");
+            string userName = Console.ReadLine();
+            Console.WriteLine("usernamenya adalah "+userName);
+
+            Console.WriteLine("Masukkan umur:");
+            int userAge = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Umurnya adalah "+userAge);
+
+            
         }
     }
 }
