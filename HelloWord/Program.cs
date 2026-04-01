@@ -50,7 +50,13 @@ namespace HelloWord
             int userAge = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Umurnya adalah "+userAge);
 
+            //Assignment operator
+            int sum = 100 + 50;
+            sum += 50; // sum = sum + 50
+            Console.WriteLine(sum);
             
+
+
         }
     }
 }
