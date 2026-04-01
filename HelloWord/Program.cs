@@ -60,6 +60,13 @@ namespace HelloWord
             int y = 20;
             Console.WriteLine(x<y);
 
+            //Math
+            Console.WriteLine("ini adalah fungsi matemetika untuk mencari nilai tertinggi "+ Math.Max(5,10));
+            Console.WriteLine("ini adalah fungsi matemetika untuk mencari nilai terendah " + Math.Min(5,10));
+            Console.WriteLine("ini adalah fungsi matemetika untuk mencari nilai akar " + Math.Sqrt(64));
+            Console.WriteLine("ini adalah fungsi matemetika untuk membuat nilai menjadi positif " + Math.Abs(-6.7));
+            Console.WriteLine("ini adalah fungsi matemetika untuk pembulatan angka " + Math.Round(6.777));
+
 
 
         }
