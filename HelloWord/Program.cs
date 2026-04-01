@@ -54,7 +54,12 @@ namespace HelloWord
             int sum = 100 + 50;
             sum += 50; // sum = sum + 50
             Console.WriteLine(sum);
-            
+
+            //Comparion operator    
+            int x = 10;
+            int y = 20;
+            Console.WriteLine(x<y);
+
 
 
         }
